@@ -58,7 +58,12 @@ R9  → arg6
 ========================
 FLAGS / COMPARISON
 ========================
-cmp  A, B             → compare (A - B, sets flags only)
+cmp  [size] A, B             → compare (A - B, sets flags only)
+
+byte   = 8-bit
+word   = 16-bit (2 bytes)
+dword  = 32-bit (4 bytes)
+qword  = 64-bit (8 bytes)
 
 ========================
 MISC
